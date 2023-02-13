@@ -105,6 +105,10 @@ header{
 
 /* ===============  NOSOTROS =============== */
 
+#section-nosotros{
+    background-color: var(--white-color)
+}
+
 .text-nosotros{
     font-size: 15px!important;
 }
@@ -232,6 +236,7 @@ footer{
 #seccion-textos p{
     font-size: 15px;
     word-spacing: 1px;
+    background-color: var(--white-color);
 }
 
 #mision-vision-border{
@@ -336,11 +341,7 @@ footer{
         width: 150px;
         height: 75px;
     }
-    .mapa iframe{
-        width: 80%;
-        height: auto;
-    }
-
+    
     .text-nosotros{
         font-size: 12px!important;
     }
